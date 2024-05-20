@@ -9,8 +9,6 @@ pytest --language=es test_items.py
 ### Французский, Chrome
 pytest --language=fr test_items.py
 ### Английский, Firefox
-pytest --language=es --browser_name=firefox test_items.py
-### Английский, Firefox
 pytest --browser_name=firefox test_items.py\
 pytest --language=en --browser_name=firefox test_items.py
 ### Испанский, Firefox
